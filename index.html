@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formations techniques – Jason Gosselin</title>
+<style>
+  :root{
+    --rouge:#C2273D; --noir:#221F1F; --gris:#6b6b6b;
+    --fond:#ffffff; --carte:#f6f6f6; --bordure:#e2e2e2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --fond:#161616; --carte:#1f1f1f; --bordure:#2e2e2e; --noir:#f2f2f2; --gris:#a8a8a8; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:2rem 1.25rem 4rem;
+    font-family:"Segoe UI",Calibri,Arial,sans-serif;
+    background:var(--fond); color:var(--noir); line-height:1.55;
+  }
+  .wrap{max-width:680px;margin:0 auto}
+  h1{font-size:1.6rem;margin:0 0 .2rem;letter-spacing:-.01em}
+  h1 span{color:var(--rouge)}
+  .sous{color:var(--gris);margin:0 0 2.2rem;font-size:.95rem}
+  h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.09em;
+     color:var(--gris);margin:2.4rem 0 .8rem;font-weight:700}
+  a.fiche{
+    display:block;text-decoration:none;color:inherit;
+    background:var(--carte);border:1px solid var(--bordure);
+    border-radius:10px;padding:1rem 1.1rem;margin-bottom:.7rem;
+  }
+  a.fiche:hover{border-color:var(--rouge)}
+  .titre{font-weight:600;font-size:1.05rem}
+  .meta{color:var(--gris);font-size:.85rem;margin-top:.15rem}
+  footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--bordure);
+         color:var(--gris);font-size:.82rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Formations <span>techniques</span></h1>
+  <p class="sous">Jason Gosselin · Académie Vast&#8209;Auto O'Reilly</p>
+
+  <h2>Documents disponibles</h2>
+
+  <a class="fiche" href="thermopompe.pdf">
+    <div class="titre">Diagnostic des systèmes de pompe à chaleur</div>
+    <div class="meta">PDF · 139 pages · 11,5 Mo</div>
+  </a>
+
+  <footer>
+    Vous avez scanné le code QR d'une de mes formations et vous êtes au bon endroit.
+    Le document reste accessible ici après la formation.
+  </footer>
+
+</div>
+</body>
+</html>
